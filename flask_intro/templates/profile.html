@@ -1,0 +1,20 @@
+
+<html>
+    <head>
+        <title> Hacker Hour Face Pamphlet </title>
+    </head>
+    <body>
+        <h1> Welcome to FacePamphlet </h1>
+        <p> You are looking at {{ name}}'s profile </p>
+        <img src="/static/{{ name }}.jpg" />
+
+        <form action="/" method="POST">
+            Comment:
+            <input type="hidden" name="profile" value="{{ name}}" />
+            <input type="text" name="comment" />
+            <input type="submit" name="submit" />
+        </form>
+        <pre> {{ comments }} </pre>
+
+    </body>
+</html>

@@ -1,0 +1,6 @@
+OH we're commenting on V's profile.
+
+</pre><script> alert("YOU GOT HACKED"); </script>
+
+</pre><script> alert("YOU GOT HACKED"); </script>
+
