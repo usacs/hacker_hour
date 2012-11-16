@@ -1,0 +1,13 @@
+Web is full of request/response
+    - Google.com is the same. 
+    - Parts of an HTTP Request
+        * GET/POST
+        * Perhaps PUT/DELETE
+    - HTTP IS STATELESS.
+        * you go on sniper - it returns a response
+        * You submit a snipe - it returns a diff response.
+When you create an HTML file. Regardless of what request to send to that URL, it returns the same response.
+
+Flask is going to allow us to customize our response based on the request that we send.
+
+http://github.com/usacs/hacker_hour
